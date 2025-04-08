@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Hi, I'm Venkatalakshmi</h1>
+      <p>Student | Learner</p>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a passionate student exploring the world of web development. I enjoy building beautiful and functional websites, learning new tech, and taking on new challenges!</p>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Personal Portfolio</h3>
+          <p>A responsive website to showcase my skills and projects.</p>
+        </div>
+        <div class="project">
+          <h3>sceintific calculator</h3>
+          <p> Just built a Scientific Calculator using HTML, CSS, and JavaScript</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (Basic)</li>
+        <li>C (basic)</li>
+        <li> python(basic)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:chinni@example.com">venkatalakshmi.sanepu@sasi.ac.in</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/chinni" target="_blank">venkatalakshmi sanepu</a></p>
+    </div>
+  </section>
+
+  
+</body>
+</html>
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 2.6;
+  background-color: #e9dae2;
+  color: #333;
+}
+
+.container {
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+header {
+  background-color: #094aa5;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about, .projects, .skills, .contact {
+  background-color:rgb(255, 255, 255);
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2312a6;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.project {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.skills ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #2c3e50;
+  color: white;
+}
+
